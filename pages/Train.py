@@ -3,7 +3,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 plt.style.use('fivethirtyeight')
 import pandas as pd
-import tensorflow
 import keras
 from sklearn.preprocessing import MinMaxScaler
 from keras.models import Sequential
