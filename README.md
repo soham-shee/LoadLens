@@ -1,7 +1,38 @@
-# GitHub Codespaces ♥️ Jupyter Notebooks
+# Load Lens 😎
 
-Welcome to your shiny new codespace! We've got everything fired up and running for you to explore Python and Jupyter notebooks.
+This ML model is designed for load forecasting using Gated Recurrent Units (GRU). This user-friendly
+app empowers users to input their past values data, specify the number of epochs, and set the 
+batch size for training a GRU-based model. 
+By leveraging the GRU architecture, the app efficiently captures temporal dependencies in the 
+data, making it ideal for accurate load forecasting. Once the model is trained, users can easily 
+download the trained model for future use, ensuring they have a reliable tool at their fingertips
+for predicting load demand.
 
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with what you're seeing right now - where you go from here is up to you!
+In addition to model training, this app offers a robust suite of features to enhance usability 
+and flexibility. Users can upload a previously trained model alongside a CSV file to retrain 
+the model, accommodating new data and improving prediction accuracy. This iterative approach 
+ensures the model remains up-to-date with the latest trends and patterns. Furthermore, the app 
+allows users to upload an existing model to forecast future values based on specified inputs, 
+providing quick and precise predictions. Whether you are training a new model, retraining with 
+additional data, or forecasting future values, this app offers a comprehensive solution for load 
+forecasting needs.
+## Run Locally
 
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
+Clone the project
+
+```bash
+  git clone https://github.com/soham-shee/LoadLens.git
+```
+
+Install dependencies
+
+```bash
+  pip install /workspaces/LoadLens/requirements.txt
+```
+
+Start the server
+
+```bash
+  streamlit run App.py
+```
+
