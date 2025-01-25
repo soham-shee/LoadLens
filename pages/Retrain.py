@@ -11,7 +11,7 @@ from keras.optimizers import SGD
 import math
 from sklearn.metrics import mean_squared_error
 import streamlit as st
-import pickle5 as pickle
+import pickle
 import base64
 import tensorflow as tf
 import os
