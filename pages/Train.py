@@ -112,7 +112,7 @@ if df is not None:
     BATCH_SIZE = st.slider('Batch Size : ', min_value=1, max_value=100, value=1, step=1)
 
     model = Sequential()
-    model.add(GRU(64, activation='tanh',return_sequences=True, input_shape=(60, 1)))
+    model.add(GRU(64, activation='tanh',return_sequences=True, input_shape=(prev, 1)))
     model.add(GRU(units=50, return_sequences=False))
     model.add(Dropout(0.2))
     model.add(Dense(1))
