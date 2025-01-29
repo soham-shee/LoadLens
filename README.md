@@ -27,7 +27,7 @@ Clone the project
 Install dependencies
 
 ```bash
-  pip install /workspaces/LoadLens/requirements.txt
+  pip install -r 'requirements.txt'
 ```
 
 Start the server
