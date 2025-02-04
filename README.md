@@ -38,7 +38,7 @@ Start the server
 
 To directly start it (Alternative Method)
 ```bash
-  ./run_app.sh; bash
+  ./run_app.sh
 ```
 
 ## Demo
