@@ -36,3 +36,15 @@ Start the server
   streamlit run App.py
 ```
 
+To directly start it (Alternative Method)
+```bash
+  ./run_app.sh; bash
+```
+
+## Demo
+
+https://loadlens.streamlit.app/
+
+## Acknowledgements
+
+ - [Load Forecast Dataset (Panama Case Study)](https://www.kaggle.com/datasets/saurabhshahane/electricity-load-forecasting)
