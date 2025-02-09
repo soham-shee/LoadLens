@@ -44,7 +44,7 @@ To directly start it (Alternative Method)
 
 ## Demo
 
-https://loadlens.streamlit.app/
+https://load-lens.streamlit.app/
 
 ## Acknowledgements
 
